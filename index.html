@@ -50,10 +50,10 @@
         </div>
         <ul class="caroussel_liste-liens">
             <li><a href="#ecran-1" class="caroussel_lien" :class="{actif:hrefCourant==='#ecran-1'}">ecran 1</a></li>
-            <li><a href="#ecran-2" class="caroussel_lien">ecran 2</a></li>
-            <li><a href="#ecran-3" class="caroussel_lien">ecran 3</a></li>
-            <li><a href="#ecran-4" class="caroussel_lien">ecran 4</a></li>
-            <li><a href="#ecran-5" class="caroussel_lien">ecran 5</a></li>
+            <li><a href="#ecran-2" class="caroussel_lien" :class="{actif2:hrefCourant==='#ecran-2'}">ecran 2</a></li>
+            <li><a href="#ecran-3" class="caroussel_lien" :class="{actif3:hrefCourant==='#ecran-3'}">ecran 3</a></li>
+            <li><a href="#ecran-4" class="caroussel_lien" :class="{actif4:hrefCourant==='#ecran-4'}">ecran 4</a></li>
+            <li><a href="#ecran-5" class="caroussel_lien" :class="{actif5:hrefCourant==='#ecran-5'}">ecran 5</a></li>
         </ul>
     </div>
 </body>
@@ -122,6 +122,22 @@ img {
 
 .actif {
     color: red;
+}
+
+.actif2 {
+    color: green;
+}
+
+.actif3 {
+    color: yellow;
+}
+
+.actif4 {
+    color: darkmagenta;
+}
+
+.actif5 {
+    color:orange;
 }
 
 </style>
